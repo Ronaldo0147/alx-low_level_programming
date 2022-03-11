@@ -9,7 +9,8 @@ int main(void)
 {
 	int letter;
 
-	/* Print alphabet in lowercase
+	/*
+	 * Print alphabet in lowercase
 	*/
 	letter = 'a';
 	while (letter <= 'z')
