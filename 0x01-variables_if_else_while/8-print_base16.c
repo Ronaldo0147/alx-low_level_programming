@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints number of base 16
+ * main - Prints numbers of base 16
  *
  * Return: Always 0 for success
  */
