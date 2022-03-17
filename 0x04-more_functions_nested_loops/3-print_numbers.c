@@ -1,17 +1,15 @@
 #include "main.h"
-
 /**
- * print_numbers - check the code for holberton School students.
- *
- * Return: zero.
+ * print_numbers - prints numbers between 0 to 9.
+ * Return: no return.
  */
 void print_numbers(void)
 {
-	int a;
+	int ch;
 
-	for (a = 0; a <= 9; a++)
+	for (ch = 48; ch < 58; ch++)
 	{
-		_putchar('0' + a);
+		_putchar(ch);
 	}
 	_putchar('\n);
 }
