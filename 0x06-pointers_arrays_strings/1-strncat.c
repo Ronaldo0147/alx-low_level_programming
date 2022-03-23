@@ -1,7 +1,7 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
-*_strncat - Function
+*_strncat - Funtion
 *
 *@dest: Destiny
 *@src: Source
@@ -17,7 +17,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (; dest[tam];)
 	{
-		tam++
+		tam++;
 	}
 
 	while (r < n && src[r])
