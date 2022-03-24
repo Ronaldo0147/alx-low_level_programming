@@ -4,7 +4,7 @@
  * @dest : int
  * @src : int
  * @n : int
- * Return : Always 0.
+ * Return: Always 0.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
