@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #ifndef holberton_h
 #define holberton_h
+=======
+#ifndef main.h
+#define main.h
+>>>>>>> 2def80c4d9d32a2494c4de6b4ef7dfaf27ef0743
 
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
