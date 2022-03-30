@@ -1,20 +1,20 @@
 #include "main.h"
+
 /**
- * _memset - check the code for Alx School students.
- * @s: parameter for the array
- * @b: parameter for the values in the array
- * @n: parameter for the number of times to print the new values
- * Return: Always 0.
+ * *_memset - fills memory with a constant byte.
+ * @n: number of bytes.
+ * @b: constant byte.
+ * @s: pointer.
+ *
+ * Return: a pointer to memory area s.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int a = 0;
+	unsigned int i;
 
-	while (a < n)
+	for (i = 0; i < n; i++)
 	{
-		s[a] = b;
-		a++;
+		s[i] = b;
 	}
-
 	return (s);
 }
